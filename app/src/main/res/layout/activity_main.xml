@@ -15,4 +15,13 @@
         tools:layout_editor_absoluteY="329dp"
         tools:ignore="MisingConstraints" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My First App"
+        app:layout_constraintBottom_toBottomOf="60dp"
+        app:layout_constraintLeft_toLeftOf="60dp"
+        app:layout_constraintRight_toRightOf="60dp"
+        app:layout_constraintTop_toTopOf="60dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
