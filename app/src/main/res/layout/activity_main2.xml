@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abduragmaan Frank"
+        app:layout_constraintBottom_toBottomOf="60dp"
+        app:layout_constraintLeft_toLeftOf="60dp"
+        app:layout_constraintRight_toRightOf="60dp"
+        app:layout_constraintTop_toTopOf="60dp" />
+
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Activity 2"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="329dp"
-        tools:ignore="MisingConstraints" />
+        tools:ignore="MisingConstraints"
+        tools:layout_editor_absoluteX="-95dp"
+        tools:layout_editor_absoluteY="223dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
